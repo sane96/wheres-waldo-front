@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: wheat;
+}
+
+#container{
+  width: 100%;
+  height: 100vh;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.game-picture-container{
+  width: 800px;
+  height: 600px;
+}
+
+.game-picture {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.allpeople {
+  display: flex;
+  justify-content: center;
+}
+
+.people{
+  display: flex;
+  width: 500px;
+  height: 250px;
+}
+
+.nav_pic{
+  display: flex;
+  justify-content: space-around;
+  height: 200px;
+  width: 100px;
+}
+
+.param {
+  display: flex;
+  justify-content: center;
+}
+
+.home-pic-container {
+  width: 400px;
+  height: 300px;
+
+}
+
+.home-pic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
